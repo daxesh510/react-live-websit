@@ -1,0 +1,55 @@
+body {
+    background-color: white ;
+    padding: 0;
+    margin: 0;
+}
+.link_div {
+    justify-content:end;
+    display: inline;
+    text-align: justify;
+}
+.link {
+    text-decoration: none;
+    margin: 10px;
+    color: gray;
+    float: right;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link:hover {
+    color: rgb(34, 26, 26);
+    border-bottom: 2px solid grey;
+}
+
+.text {
+    display: inline;
+    font-size: 30px;
+    color: rgb(99, 53, 53);
+}
+.home{
+    margin-top: 300px;
+}
+
+.main1{
+    font-weight: bold;
+}
+
+.main2{
+    color: rgb(105, 156, 233);
+}
+
+.object {
+    animation: MoveUpDown 5s linear infinite;
+    position: absolute;
+    left:800px;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 100px;
+    }
+  }
